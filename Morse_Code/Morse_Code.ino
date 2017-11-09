@@ -30,29 +30,37 @@ void setup() {
 
 // the loop function runs over and over again forever
   void loop() {
-   // v
+   // h
   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
   delay(100);                       // wait for a second
-     // dot
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   delay(100);                       // wait for a second
-      // dash
+
+   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(100);                       // wait for a second
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(100);
+  delay(100);    
+
+   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(100);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(100);    
+
+   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(100);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(100);    
+      
+  //
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(3*100);    
+      
 
     // e
  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
  delay(100);
 
- digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
- delay(100);
-  // s
-   digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-   delay(100);
-   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-   delay(100);
-   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-   delay(100);
+ 
  
   } 
   
